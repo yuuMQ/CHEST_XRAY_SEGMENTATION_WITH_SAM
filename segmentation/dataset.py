@@ -55,6 +55,8 @@ class COVID19_Segmentation_Dataset(Dataset):
         return image, mask
 
 if __name__ == '__main__':
+    print(cv2.__file__)
+    print(cv2.__version__)
     train_transform = Compose([
         Resize(224, 224),
         HorizontalFlip(p=0.5),

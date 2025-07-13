@@ -5,22 +5,6 @@ import os
 from torchvision.transforms import ToTensor, PILToTensor, Compose, ColorJitter, Resize, RandomAffine, Normalize, ToPILImage
 import numpy as np
 from PIL import Image
-from collections import Counter
-
-
-def analyze_class_distribution(dataset):
-    counts = Counter(dataset.labels)
-    total = len(dataset)
-    print("📊 Class distribution:")
-    for i, cls in enumerate(dataset.categories):
-        print(f"  {cls:<16}: {counts[i]} samples")
-
-    max_count = max(counts.values())
-    min_count = min(counts.values())
-    imbalance_ratio = max_count / (min_count + 1e-9)
-    print(f"\n⚠️ Imbalance ratio (max/min): {imbalance_ratio:.2f}")
-
-
 
 class COVID19_Classification_Dataset(Dataset):
     def __init__(self, root, train=True, transform=None):
@@ -64,7 +48,6 @@ if __name__ == '__main__':
         Normalize((0.485, 0.456, 0.406), (0.229, 0.224, 0.225)),
     ])
     dataset = COVID19_Classification_Dataset(root="../data", train=True, transform=transform)
-    analyze_class_distribution(dataset)
     '''
         📊 Class distribution:
           COVID           : 2531 samples

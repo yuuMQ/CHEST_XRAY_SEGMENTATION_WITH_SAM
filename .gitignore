@@ -1,4 +1,5 @@
 classification/*_models/
+dataset
+segmentation
+MedCLIP-SAMv2
 *.pt
-data/
-dataset/
