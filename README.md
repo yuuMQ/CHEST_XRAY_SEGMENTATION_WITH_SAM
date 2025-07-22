@@ -71,6 +71,9 @@ Best model saved with loss:  0.07627292665598354
 ---
 
 ## HOW TO USE:
+
+### [My Checkpoint](https://drive.google.com/file/d/1joLU93uFNwqG-960ijy4rIf7C8o5IdQv/view?usp=sharing)
+
 ### 1. Prepare your dataset
 - If your dataset doesn't have train, test, valid, you can use create_dataset.py to format dataset as below:
 ```text
