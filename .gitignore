@@ -1,5 +1,9 @@
 classification/*_models/
 dataset
-segmentation
-MedCLIP-SAMv2
+classification
+data
+segmentation/masks_predicted
+segmentation/SAM_models
+segmentation/older_file
+segmentation/tensorboard
 *.pt

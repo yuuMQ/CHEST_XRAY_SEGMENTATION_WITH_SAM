@@ -5,34 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfba8ff2-31ab-46c2-861d-3bfdedb40bae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MedCLIP-SAMv2/saliency_maps/model/epoch_32.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MedCLIP-SAMv2/saliency_maps/text_prompts/covid_testing.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MedCLIP-SAMv2/saliency_maps/text_prompts/lung_opacity_testing.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MedCLIP-SAMv2/saliency_maps/text_prompts/lung_xray_testing.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MedCLIP-SAMv2/saliency_maps/text_prompts/normal_testing.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MedCLIP-SAMv2/saliency_maps/text_prompts/viral_pneumonia_testing.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MedCLIP-SAMv2/segment-anything/sam_checkpoints/sam_vit_h_4b8939.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MedCLIP-SAMv2/zeroshot_brain_tumors.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MedCLIP-SAMv2/zeroshot_breast_tumors.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MedCLIP-SAMv2/zeroshot_lungct.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MedCLIP-SAMv2/zeroshot_lungxray.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/SIC_FinalProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SIC_FinalProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MedCLIP-SAMv2/biomedclip_finetuning/open_clip/scripts/biomedclip.sh" beforeDir="false" afterPath="$PROJECT_DIR$/MedCLIP-SAMv2/biomedclip_finetuning/open_clip/scripts/biomedclip.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MedCLIP-SAMv2/postprocessing/postprocess_saliency_maps.py" beforeDir="false" afterPath="$PROJECT_DIR$/MedCLIP-SAMv2/postprocessing/postprocess_saliency_maps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MedCLIP-SAMv2/saliency_maps/generate_saliency_maps.py" beforeDir="false" afterPath="$PROJECT_DIR$/MedCLIP-SAMv2/saliency_maps/generate_saliency_maps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MedCLIP-SAMv2/saliency_maps/model/convert.py" beforeDir="false" afterPath="$PROJECT_DIR$/MedCLIP-SAMv2/saliency_maps/model/convert.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MedCLIP-SAMv2/segment-anything/segment_anything.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/MedCLIP-SAMv2/segment-anything/segment_anything.egg-info/PKG-INFO" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MedCLIP-SAMv2/segment-anything/segment_anything.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MedCLIP-SAMv2/segment-anything/segment_anything.egg-info/SOURCES.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MedCLIP-SAMv2/segment-anything/segment_anything.egg-info/dependency_links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MedCLIP-SAMv2/segment-anything/segment_anything.egg-info/dependency_links.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MedCLIP-SAMv2/segment-anything/segment_anything.egg-info/requires.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MedCLIP-SAMv2/segment-anything/segment_anything.egg-info/requires.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MedCLIP-SAMv2/segment-anything/segment_anything.egg-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MedCLIP-SAMv2/segment-anything/segment_anything.egg-info/top_level.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MedCLIP-SAMv2/zeroshot.sh" beforeDir="false" afterPath="$PROJECT_DIR$/MedCLIP-SAMv2/zeroshot.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/create_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/create_dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/.gitignore" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +53,7 @@
     &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.pytest in test_mask.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.pytest in test_mask_and_image.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.pytest in test_saliency.py.executor&quot;: &quot;Run&quot;,
     &quot;Python.create_caption.executor&quot;: &quot;Run&quot;,
@@ -83,8 +63,10 @@
     &quot;Python.dataset.executor&quot;: &quot;Run&quot;,
     &quot;Python.filter_medpix_dataset.executor&quot;: &quot;Run&quot;,
     &quot;Python.lungct_prompt.executor&quot;: &quot;Run&quot;,
+    &quot;Python.overlay_image.executor&quot;: &quot;Run&quot;,
     &quot;Python.prompt_image_data.executor&quot;: &quot;Run&quot;,
     &quot;Python.reshape.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
     &quot;Python.train.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
@@ -93,7 +75,7 @@
     &quot;SHELLCHECK.PATH&quot;: &quot;/home/minh-quan/.local/share/JetBrains/PyCharm2025.1/Shell Script/shellcheck&quot;,
     &quot;Shell Script.zeroshot_lungxray.sh.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/minh-quan/SIC_FinalProject/MedCLIP-SAMv2/saliency_maps/model&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/minh-quan/SIC_FinalProject/segmentation/segmentation_report&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -105,18 +87,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/segmentation/segmentation_report" />
+      <recent name="$PROJECT_DIR$/MedSAM2" />
+      <recent name="$PROJECT_DIR$/Medical-SAM2/data" />
       <recent name="$PROJECT_DIR$/MedCLIP-SAMv2/saliency_maps/model" />
       <recent name="$PROJECT_DIR$/data/COVID" />
-      <recent name="$PROJECT_DIR$/MedCLIP-SAMv2/saliency_maps/text_prompts" />
-      <recent name="$PROJECT_DIR$/segmentation" />
-      <recent name="$PROJECT_DIR$/MedCLIP-SAMv2/biomedclip_finetuning/open_clip/src/data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/segmentation/older_file" />
-      <recent name="$PROJECT_DIR$/MedCLIP-SAMv2/saliency_maps/model/abc" />
-      <recent name="$PROJECT_DIR$/MedCLIP-SAMv2/saliency_maps/model" />
+      <recent name="$PROJECT_DIR$/classification" />
+      <recent name="$PROJECT_DIR$/MedSAM2" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/MedCLIP-SAMv2/saliency_maps/text_prompts" />
+      <recent name="$PROJECT_DIR$/MedSAM2/temp" />
+      <recent name="$PROJECT_DIR$/MedSAM2/checkpoints" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -164,24 +146,46 @@
       <workItem from="1752349303316" duration="6584000" />
       <workItem from="1752417333058" duration="2048000" />
       <workItem from="1752400230068" duration="1654000" />
+      <workItem from="1752476848313" duration="19658000" />
+      <workItem from="1752647308867" duration="20168000" />
+      <workItem from="1752796899102" duration="6985000" />
+      <workItem from="1752844842674" duration="3444000" />
+      <workItem from="1752884448151" duration="1297000" />
+      <workItem from="1752983708840" duration="13407000" />
+      <workItem from="1753055865090" duration="1623000" />
+      <workItem from="1753186918816" duration="3157000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Medical-SAM2/train_2d.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SIC_FinalProject$create_caption.coverage" NAME="create_caption Coverage Results" MODIFIED="1752234525567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/segmentation" />
+    <SUITE FILE_PATH="coverage/SIC_FinalProject$pytest_in_test_mask_py.coverage" NAME="pytest in test_mask.py Coverage Results" MODIFIED="1752420455848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/segmentation" />
+    <SUITE FILE_PATH="coverage/SIC_FinalProject$overlay_image.coverage" NAME="overlay_image Coverage Results" MODIFIED="1753023589819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/segmentation" />
     <SUITE FILE_PATH="coverage/SIC_FinalProject$custom_medpix_dataset.coverage" NAME="custom_medpix_dataset Coverage Results" MODIFIED="1752235701764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/segmentation" />
     <SUITE FILE_PATH="coverage/SIC_FinalProject$prompt_image_data.coverage" NAME="prompt_image_data Coverage Results" MODIFIED="1752239628815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/segmentation" />
-    <SUITE FILE_PATH="coverage/SIC_FinalProject$dataset.coverage" NAME="dataset Coverage Results" MODIFIED="1752393224964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/segmentation" />
+    <SUITE FILE_PATH="coverage/SIC_FinalProject$dataset.coverage" NAME="dataset Coverage Results" MODIFIED="1752501323502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/segmentation" />
     <SUITE FILE_PATH="coverage/SIC_FinalProject$custom_biomedclip_finetuning_training_dataset.coverage" NAME="custom_biomedclip_finetuning_training_dataset Coverage Results" MODIFIED="1751886603265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/segmentation" />
     <SUITE FILE_PATH="coverage/SIC_FinalProject$pytest_in_test_mask_and_image_py.coverage" NAME="pytest in test_mask_and_image.py Coverage Results" MODIFIED="1751895310641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/segmentation" />
     <SUITE FILE_PATH="coverage/SIC_FinalProject$pytest_in_test_saliency_py.coverage" NAME="pytest in test_saliency.py Coverage Results" MODIFIED="1752329256179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/segmentation" />
     <SUITE FILE_PATH="coverage/SIC_FinalProject$reshape.coverage" NAME="reshape Coverage Results" MODIFIED="1750397520570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classification/classification_reports" />
-    <SUITE FILE_PATH="coverage/SIC_FinalProject$train.coverage" NAME="train Coverage Results" MODIFIED="1751038665409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/segmentation" />
-    <SUITE FILE_PATH="coverage/SIC_FinalProject$create_dataset.coverage" NAME="create_dataset Coverage Results" MODIFIED="1752239239445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/SIC_FinalProject$train.coverage" NAME="train Coverage Results" MODIFIED="1752494161601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/segmentation" />
+    <SUITE FILE_PATH="coverage/SIC_FinalProject$create_dataset.coverage" NAME="create_dataset Coverage Results" MODIFIED="1752658522355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SIC_FinalProject$lungct_prompt.coverage" NAME="lungct_prompt Coverage Results" MODIFIED="1752059266046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/segmentation" />
     <SUITE FILE_PATH="coverage/SIC_FinalProject$filter_medpix_dataset.coverage" NAME="filter_medpix_dataset Coverage Results" MODIFIED="1752233654831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/segmentation" />
+    <SUITE FILE_PATH="coverage/SIC_FinalProject$test.coverage" NAME="test Coverage Results" MODIFIED="1753021952836" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/segmentation" />
   </component>
 </project>

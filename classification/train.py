@@ -36,7 +36,7 @@ def get_args():
     parser.add_argument("--weight_decay", "-wd",type=float, default=0.01, help="weight decay")
     parser.add_argument("--momentum", "-m",type=float, default=0.9, help="momentum")
     parser.add_argument("--num_workers", "-nw", type=int, default=4, help="number of workers")
-    parser.add_argument("--image_size", '-i', type=int, default=224, help="image size")
+    parser.add_argument("--image_size", '-i', type=int, default=1024, help="image size")
     parser.add_argument("--early_stopping", "-p", type=int, default=10, help="early stopping patience")
     parser.add_argument("--logging", '-l', type=str, default="tensorboard", help="logging path")
     parser.add_argument("--checkpoint", '-c', type=str, default=None, help="checkpoint path")
@@ -86,7 +86,6 @@ def train(args):
     num_epochs = args.epochs
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     train_transform = Compose([
-        RandomHorizontalFlip(),
         Resize((args.image_size, args.image_size)),
         ToTensor(),
         Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225]),
@@ -96,8 +95,8 @@ def train(args):
         ToTensor(),
         Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
     ])
-    train_dataset = COVID19_Classification_Dataset(root=args.root, train=True, transform=train_transform)
-    val_dataset = COVID19_Classification_Dataset(root=args.root, train=False, transform=val_transform)
+    train_dataset = COVID19_Classification_Dataset(root=args.root, train=True)
+    val_dataset = COVID19_Classification_Dataset(root=args.root, train=False)
 
     num_classes = len(train_dataset.categories)
 
